@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>文创 - 故宫博物院</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/culture.css">
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/culture.js"></script>
+</head>
+
+<body>
+    <!-- 头 -->
+    <div class="header">
+        <div class="wrap">
+            <div class="logo" style="background:none;"><a href="/">
+                    <img src="images/2-1.png" alt="故宫博物院">
+                </a></div>
+            <div class="tools">
+                <div class="d us login">
+                    <span><img width="17" src="images/7-29.png"></span>
+                    <div class="loginbox">
+                        <a class="a" href="/passport/login.html">登录</a>
+                        <a class="a" href="/passport/signup.html">注册</a>
+                    </div>
+                </div>
+                <div class="d la lang">
+                    <span><img src="images/7-30.png"></span>
+                    <div class="language">
+                        <a class="a" href="http://en.dpm.org.cn/" target="_blank">EN</a>
+                        <a class="a" href="http://young.dpm.org.cn/" target="_blank">青少版</a>
+                    </div>
+                </div>
+                <div class="d sc scbtn">
+                    <span><img width="17" src="images/7-31.png"></span>
+                    <div class="search">
+                        <input type="text" class="kw" value="搜索关键词..." onfocus="if(this.value='搜索关键词...'){this.value=''}"
+                            onblur="if(this.value==''){this.value='搜索关键词...'}">
+                        <input type="button" class="ok">
+                    </div>
+                </div>
+                <div class="d me" onclick="openAlert('.navbar')">
+                    <a href="javascript:;"><img src="images/7-41.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="nav_main">
+            <ul>
+                <li>
+                    <a href="index.html" target="_blank">首页</a>
+                </li>
+                <li>
+                    <a href="guide.html" target="_blank">导览</a>
+                    <b><img src="images/arrow1.png" width="18"></b>
+                </li>
+                <li>
+                    <a href="exhibition.html" target="_blank">展览</a>
+                    <b><img src="images/arrow1.png" width="18"></b>
+                </li>
+                <li>
+                    <a href="education.html" target="_blank">教育</a>
+                    <b><img src="images/arrow1.png" width="18"></b>
+                </li>
+                <li>
+                    <a href="explore.html" target="_blank">探索</a>
+                    <b><img src="images/arrow1.png" width="18"></b>
+                </li>
+                <li>
+                    <a href="science.html" target="_blank">学术</a>
+                    <b><img src="images/arrow1.png" width="18"></b>
+                </li>
+                <li>
+                    <a href="culture.html" target="_blank">文创</a>
+                    <b><img src="images/arrow1.png" width="18"></b>
+                </li>
+                <li>
+                    <a href="about.html" target="_blank">关于</a>
+                    <b><img src="images/arrow1.png" width="18"></b>
+                </li>
+            </ul>
+        </div>
+        <div class="nav_child">
+            <div class="child c1">
+            </div>
+            <div class="child c2">
+                <div class="p" style="margin-left: 248.5px;">
+                    <p><strong>
+                            <a href="/Visit.html#block3">开放时间</a>
+                        </strong></p>
+                    <p><strong>
+                            <a href="/Visit.html#block4">票务服务</a>
+                        </strong></p>
+                    <p><strong>
+                            <a href="/Visit.html#block5">交通路线</a>
+                        </strong></p>
+                    <p><strong>
+                            <a href="/Visit.html#block6">游览须知</a>
+                        </strong></p>
+                    <p class="last"><strong>
+                            <a href="http://mob.visualbusiness.cn/gugong/index.html" target="_blank">全景故宫</a>
+                        </strong></p>
+                </div>
+            </div>
+            <div class="child c3">
+                <div class="p" style="margin-left: 392px;">
+                    <p><strong>
+                            <a href="/shows.html#temporary2">近期展览</a>
+                        </strong></p>
+                    <p><strong>
+                            <a href="/shows.html#temporary4">专馆</a>
+                        </strong></p>
+                    <p><strong>
+                            <a href="/shows.html#temporary_5">原状陈列</a>
+                        </strong></p>
+                    <p class="last"><strong>
+                            <a href="/shows.html#temporary_6">赴外展览</a>
+                        </strong></p>
+                </div>
+            </div>
+            <div class="child c4">
+                <div class="p">
+                    <p><strong>
+                            <a href="/Events.html#hd1-2">教育新闻</a>
+                        </strong></p>
+                    <p><strong>
+                            <a href="/Events.html#hd1-3">故宫博物院教育中心</a>
+                        </strong></p>
+                    <p><strong>
+                            <a href="/Events.html#hd1-6">国际博协培训中心</a>
+                        </strong></p>
+                    <p class="last"><strong>
+                            <a href="/Events.html#hd1-7">故宫志愿者</a>
+                        </strong></p>
+                </div>
+            </div>
+            <div class="child c5">
+                <div class="p">
+                    <p><strong>
+                            <a href="/explore/buildings.html">建筑</a>
+                        </strong></p>
+                    <p><strong>
+                            <a href="/explore/collections.html">藏品</a>
+                        </strong></p>
+                    <p><strong>
+                            <a href="/explore/ancients.html">古籍</a>
+                        </strong></p>
+                    <p><strong>
+                            <a href="/explores/courts.html">宫廷历史</a>
+                        </strong></p>
+                    <p><strong>
+                            <a href="/explore/protects.html">文物医院</a>
+                        </strong></p>
+                    <p><strong>
+                            <a href="/explore/cultures.html">文化专题</a>
+                        </strong></p>
+                    <p><strong>
+                            <a href="http://minghuaji.dpm.org.cn" target="_blank">名画记</a>
+                        </strong></p>
+                    <p class="last"><strong>
+                            <a href="https://img.dpm.org.cn/Public/static/CCP/index.html" target="_blank">藏品总目</a>
+                        </strong></p>
+                </div>
+            </div>
+            <div class="child c6">
+                <div class="p">
+                    <p><strong>
+                            <a href="/learning/dynamic.html">学术活动</a>
+                        </strong></p>
+                    <p><strong>
+                            <a href="/expert.html">专家名录</a>
+                        </strong></p>
+                    <p><strong>
+                            <a href="/achaime/institute.html">故宫研究院</a>
+                        </strong></p>
+                    <p><strong>
+                            <a href="/science/platform.html">故宫学院</a>
+                        </strong></p>
+                    <p><strong>
+                            <a href="/organization_others.html">其他学术机构</a>
+                        </strong></p>
+                    <p class="last"><strong>
+                            <a href="/journals.html">故宫博物院院刊</a>
+                        </strong></p>
+                </div>
+            </div>
+            <div class="child c7">
+                <div class="p">
+                    <p><strong>
+                            <a href="/publishes.html">故宫出版</a>
+                        </strong></p>
+                    <p><strong>
+                            <a href="/Creative.html#protects">文创产品</a>
+                        </strong></p>
+                    <p><strong>
+                            <a href="/lights/royal.html">故宫壁纸</a>
+                        </strong></p>
+                    <p><strong>
+                            <a href="/Creative.html#app">故宫APP</a>
+                        </strong></p>
+                    <p class="last"><strong>
+                            <a href="http://young.dpm.org.cn/damaoxian#gamezone" target="_blank">故宫游戏</a>
+                        </strong></p>
+                </div>
+            </div>
+            <div class="child c8">
+                <div class="p">
+                    <p><strong>
+                            <a href="/about/about_view.html">总说</a>
+                        </strong></p>
+                    <p><strong>
+                            <a href="/about/information.html">资讯</a>
+                        </strong></p>
+                    <p><strong>
+                            <a href="/about/about_chron.html">院史编年</a>
+                        </strong></p>
+                    <p><strong>
+                            <a href="/about/bill_billboard.html">景仁榜</a>
+                        </strong></p>
+                    <p class="last"><strong>
+                            <a href="/about/organization.html">机构设置</a>
+                        </strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 三角点击事件 -->
+    <div class="popWindow navbar children">
+        <div class="layer"> <a href="javascript:;" class="close"></a>
+            <div class="list">
+                <div class="">
+                    <div class="item">
+                        <a href="/Visit.html" style="color:#fff;">
+                            <h1>导览</h1>
+                        </a>
+                        <dl>
+                            <dd><a href="/Visit.html#block3">开放时间</a></dd>
+                            <dd><a href="/Visit.html#block4">票务服务</a></dd>
+                            <dd><a href="/Visit.html#block5">交通路线</a></dd>
+                            <dd><a href="/Visit.html#block6">游览须知</a></dd>
+                            <dd><a href="http://mob.visualbusiness.cn/gugong/index.html" target="_blank">全景故宫</a></dd>
+                        </dl>
+                    </div>
+                    <div class="item">
+                        <a href="/shows.html" style="color:#fff;">
+                            <h1>展览</h1>
+                        </a>
+                        <dl>
+                            <dd><a href="/shows.html#temporary2">近期展览</a></dd>
+                            <dd><a href="/shows.html#temporary4">专馆</a></dd>
+                            <dd><a href="/shows.html#temporary_5">原状陈列</a></dd>
+                            <dd><a href="/shows.html#temporary_6">赴外展览</a></dd>
+                        </dl>
+                    </div>
+                    <div class="item">
+                        <a href="/Events.html" style="color:#fff;">
+                            <h1>教育</h1>
+                        </a>
+                        <dl>
+                            <dd><a href="/Events.html#hd1-2">教育新闻</a></dd>
+                            <dd><a href="/Events.html#hd1-3">故宫博物院教育中心</a></dd>
+                            <dd><a href="/Events.html#hd1-6">国际博协培训中心</a></dd>
+                            <dd><a href="/Events.html#hd1-7">故宫志愿者</a></dd>
+                        </dl>
+                    </div>
+                    <div class="item">
+                        <a href="/Explore.html" style="color:#fff;">
+                            <h1>探索</h1>
+                        </a>
+                        <dl>
+                            <dd><a href="/explore/buildings.html">建筑</a></dd>
+                            <dd><a href="/explore/collections.html">藏品</a></dd>
+                            <dd><a href="/explore/ancients.html">古籍</a></dd>
+                            <dd><a href="/explores/courts.html">宫廷历史</a></dd>
+                            <dd><a href="/explore/protects.html">文物医院</a></dd>
+                            <dd><a href="/explore/cultures.html">文化专题</a></dd>
+                            <dd><a href="http://minghuaji.dpm.org.cn" target="_blank">名画记</a></dd>
+                            <dd><a href="https://img.dpm.org.cn/Public/static/CCP/index.html" target="_blank">藏品总目</a></dd>
+                        </dl>
+                    </div>
+                    <div class="item">
+                        <a href="/Research.html" style="color:#fff;">
+                            <h1>学术</h1>
+                        </a>
+                        <dl>
+                            <dd><a href="/learning/dynamic.html">学术活动</a></dd>
+                            <dd><a href="/expert.html">专家名录</a></dd>
+                            <dd><a href="/achaime/institute.html">故宫研究院</a></dd>
+                            <dd><a href="/science/platform.html">故宫学院</a></dd>
+                            <dd><a href="/organization_others.html">其他学术机构</a></dd>
+                            <dd><a href="/journals.html">故宫博物院院刊</a></dd>
+                        </dl>
+                    </div>
+                    <div class="item">
+                        <a href="/Creative.html" style="color:#fff;">
+                            <h1>文创</h1>
+                        </a>
+                        <dl>
+                            <dd><a href="/publishes.html">故宫出版</a></dd>
+                            <dd><a href="/Creative.html#protects">文创产品</a></dd>
+                            <dd><a href="/lights/royal.html">故宫壁纸</a></dd>
+                            <dd><a href="/Creative.html#app">故宫APP</a></dd>
+                            <dd><a href="http://young.dpm.org.cn/damaoxian#gamezone" target="_blank">故宫游戏</a></dd>
+                        </dl>
+                    </div>
+                    <div class="item">
+                        <a href="/About.html" style="color:#fff;">
+                            <h1>关于</h1>
+                        </a>
+                        <dl>
+                            <dd><a href="/about/about_view.html">总说</a></dd>
+                            <dd><a href="/about/information.html">资讯</a></dd>
+                            <dd><a href="/about/about_chron.html">院史编年</a></dd>
+                            <dd><a href="/about/bill_billboard.html">景仁榜</a></dd>
+                            <dd><a href="/about/organization.html">机构设置</a></dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 中间 -->
+    <div class="winchance" style="min-height: 22px">
+        <div class="banner">
+            <img src="images//7-1.png" alt="">
+        </div>
+        <div class="box">
+            <div class="horn h1"></div>
+            <div class="horn h2"></div>
+            <div class="box1">
+                <div id="periodical" class="item1">
+                    <div class="foucs">
+                        <div class="frame">
+                            <div class="child now">
+                                <div class="img">
+                                    <a href="https://detail.tmall.com/item.htm?id=563480724876" target="_blank">
+                                        <img class="lazyloaded" width="342px" height="413px" src="upload/7-1.png" alt="宫里过大年"
+                                            title="宫里过大年">
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <div class="public-title">
+                                        <span class="s1"></span>
+                                        <a href="https://detail.tmall.com/item.htm?id=563480724876" target="_blank">宫里过大年</a>
+                                        <span class="s2"></span>
+                                    </div>
+                                    <a href="https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17854078658.203.340a61a8hDhK7Z&id=569643975989&rn=c03fd4d8a621cba0c69f633ecd29bcb4&abbucket=18"
+                                        target="_blank">
+                                        <div class="h2"></div>
+                                        <p>端午节是我国传统节日之一，至今已有两千多年的历史了，它与春节、中秋节并称为中华民族最具影响力的三大传统节日。端午节在历史上有不同的叫法，比如端午、端阳、重五天中节、五月节等。关于端午节的起源众说纷纭。其中，纪念屈原这一说法家喻户晓。</p>
+                                    </a>
+                                </div>
+                                <div></div>
+                            </div>
+                            <div class="child">
+                                <div class="img">
+                                    <a href="https://detail.tmall.com/item.htm?spm=a1z10.1-b-s.w19097863-18382609042.11.7528b2caj5OUQi&id=574016626973"
+                                        target="_blank">
+                                        <img class="lazyloaded" width="342px" height="413px" src="upload/7-2.png" alt="故宫满汉全席日历"
+                                            title="故宫满汉全席日历">
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <div class="public-title">
+                                        <span class="s1"></span>
+                                        <a href="https://detail.tmall.com/item.htm?spm=a1z10.1-b-s.w19097863-18382609042.11.7528b2caj5OUQi&id=574016626973"
+                                            target="_blank">故宫满汉全席日历</a>
+                                        <span class="s2"></span>
+                                    </div>
+                                    <a href="">
+                                        <div class="h2"></div>
+                                        <p>烹饪大师齐金柱先生结合历史资料与民间传说，构建一套新时代的满汉全席，详述主菜和点心汤羹的烹饪原料及制法，辅以照片，以飨读者。您可以试着做一做、这本日历以满汉全席的菜品、佳器、掌故展开一年的舌尖之旅，可谓大有味道。“旧时王谢堂前燕，飞入寻常百姓家。”二○一九，翻开日历，走进厨房，我们一起寻味大清。</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="child">
+                                <div class="img">
+                                    <a href="https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17854078658.203.340a61a8hDhK7Z&id=569643975989&rn=c03fd4d8a621cba0c69f633ecd29bcb4&abbucket=18"
+                                        target="_blank">
+                                        <img class="lazyloaded" width="342px" height="413px" src="upload/7-3.png" alt="宫里过端午"
+                                            title="宫里过端午">
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <div class="public-title">
+                                        <span class="s1"></span>
+                                        <a href="https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17854078658.203.340a61a8hDhK7Z&id=569643975989&rn=c03fd4d8a621cba0c69f633ecd29bcb4&abbucket=18"
+                                            target="_blank">宫里过端午</a>
+                                        <span class="s2"></span>
+                                    </div>
+                                    <a href="https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-17854078658.203.340a61a8hDhK7Z&id=569643975989&rn=c03fd4d8a621cba0c69f633ecd29bcb4&abbucket=18"
+                                        target="_blank">
+                                        <div class="h2"></div>
+                                        <p>端午节是我国传统节日之一，至今已有两千多年的历史了，它与春节、中秋节并称为中华民族最具影响力的三大传统节日。端午节在历史上有不同的叫法，比如端午、端阳、重五天中节、五月节等。关于端午节的起源众说纷纭。其中，纪念屈原这一说法家喻户晓。</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav">
+                            <a href="javascript:;" class="now"></a>
+                            <a href="javascript:;"></a>
+                            <a href="javascript:;"></a>
+                        </div>
+                        <div class="button">
+                            <a href="/periodicals.html" target="_blank">更多故宫刊物</a>
+                            <a href="https://ggcbs.tmall.com/shop/view_shop.htm" target="_blank">故宫出版旗舰店</a>
+                        </div>
+                        <div class="icon"></div>
+                    </div>
+                </div>
+                <div id="protects" class="item2">
+                    <div class="foucs">
+                        <div class="frame">
+                            <div class="child now">
+                                <div class="icon1">
+                                    <img src="upload/7-4.png" alt="">
+                                </div>
+                                <div class="img">
+                                    <a href="https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-15331857433.174.90577870iJFew2&id=583587160696&rn=cc90fecb56bed629a72fc9e1d6b7084b&abbucket=18"
+                                        target="_blank">
+                                        <img class="lazyloaded" src="upload/7-5.png" alt="紫禁重华·挂饰" title="紫禁重华·挂饰">
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <div class="titlebox">
+                                        <div class="public-title" style="background:url(upload/7-6.png) no-repeat right top">
+                                            <span class="s1"></span>
+                                            <a href="https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-15331857433.174.90577870iJFew2&id=583587160696&rn=cc90fecb56bed629a72fc9e1d6b7084b&abbucket=18"
+                                                target="_blank">紫禁重华·挂饰</a>
+                                            <span class="s2"></span>
+                                        </div>
+                                    </div>
+                                    <a href="https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-15331857433.174.90577870iJFew2&id=583587160696&rn=cc90fecb56bed629a72fc9e1d6b7084b&abbucket=18"
+                                        target="_blank">
+                                        <div class="h2"></div>
+                                        <p>以优质合金结合仿珐琅工艺制作而成，展现了宫廷韵味浓厚的宫灯形象，亦与具有历史文化内涵的故宫建筑、清代新年的重要活动场所——重华宫相互呼应。</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="child">
+                                <div class="icon1">
+                                    <img src="upload/7-7.png">
+                                </div>
+                                <div class="img">
+                                    <a href="https://detail.youzan.com/show/goods?alias=3epclugyqhmrc" target="_blank">
+                                        <img class=" lazyloaded" title="神骏水果叉" alt="神骏水果叉" src="upload/7-8.png">
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <div class="titlebox" style="background:url(upload/7-6.png) no-repeat right top">
+                                        <div class="public-title">
+                                            <span class="s1"></span>
+                                            <a href="https://detail.youzan.com/show/goods?alias=3epclugyqhmrc" target="_blank">神骏水果叉</a>
+                                            <span class="s2"></span>
+                                        </div>
+                                    </div>
+                                    <a href="https://detail.youzan.com/show/goods?alias=3epclugyqhmrc" target="_blank">
+                                        <div class="h2"></div>
+                                        <p>神骏水果叉设计参考郎世宁《乾隆大阅图》中的骏马形象，马头以24K金镀面，大气精致，骏马体型肥壮圆润，射猎用的箭巧妙设计成5支水果叉，别具匠心。</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="child">
+                                <div class="icon1">
+                                    <img src="upload/7-9.png">
+                                </div>
+                                <div class="img">
+                                    <a href="https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-15331857433.41.4b2f7870Xp1bcN&amp;id=580200529417&amp;rn=c56896cd4bdb22c5ec8a61b285e02512&amp;abbucket=18"
+                                        target="_blank">
+                                        <img class=" lazyloaded" title="宫里过大年·门神·拼图" alt="宫里过大年·门神·拼图" src="upload/7-10.png">
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <div class="titlebox" style="background:url(upload/7-6.png) no-repeat right top">
+                                        <div class="public-title">
+                                            <span class="s1"></span>
+                                            <a href="https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-15331857433.41.4b2f7870Xp1bcN&amp;id=580200529417&amp;rn=c56896cd4bdb22c5ec8a61b285e02512&amp;abbucket=18"
+                                                target="_blank">宫里过大年·门神·拼图</a>
+                                            <span class="s2"></span>
+                                        </div>
+                                    </div>
+                                    <a href="https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-15331857433.41.4b2f7870Xp1bcN&amp;id=580200529417&amp;rn=c56896cd4bdb22c5ec8a61b285e02512&amp;abbucket=18"
+                                        target="_blank">
+                                        <div class="h2"></div>
+                                        <p>张挂门神、年画，是我国历史悠久的新年习俗，表达了纳福迎祥、逢凶化吉等美好祈愿。拼图完成后，可选择自己喜爱的画框进行装裱，用自己的作品为家居装饰带来一抹亮色。</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="child">
+                                <div class="icon1">
+                                    <img src="upload/7-11.png">
+                                </div>
+                                <div class="img">
+                                    <a href="https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-15331857433.99.d5667870a2MHO5&amp;id=584765412133&amp;rn=82f6eddcf5dd1b8ac027752813bdf0ed&amp;abbucket=18"
+                                        target="_blank">
+                                        <img class=" lazyloaded" title="婴戏图·书签套装" alt="婴戏图·书签套装" src="upload/7-12.png">
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <div class="titlebox" style="background:url(https://img.dpm.org.cn/Uploads/Picture/2019/01/22/s5c46c9700d450.png) no-repeat right top">
+                                        <div class="public-title">
+                                            <span class="s1"></span>
+                                            <a href="https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-15331857433.99.d5667870a2MHO5&amp;id=584765412133&amp;rn=82f6eddcf5dd1b8ac027752813bdf0ed&amp;abbucket=18"
+                                                target="_blank">婴戏图·书签套装</a>
+                                            <span class="s2"></span>
+                                        </div>
+                                    </div>
+                                    <a href="https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-15331857433.99.d5667870a2MHO5&amp;id=584765412133&amp;rn=82f6eddcf5dd1b8ac027752813bdf0ed&amp;abbucket=18"
+                                        target="_blank">
+                                        <div class="h2"></div>
+                                        <p>以“童趣盎然”为出发点，提取《福贵岁朝图》中嬉戏的孩童与各色宫灯为设计元素，运用现代工艺打造成创意金属书签。</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav">
+                            <a href="javascript:;" class="now"></a>
+                            <a href="javascript:;"></a>
+                            <a href="javascript:;"></a>
+                            <a href="javascript:;"></a>
+                        </div>
+                        <div class="button">
+                            <a href="https://palacemuseum.tmall.com/view_shop.htm?spm=a220m.1000858.0.0.0sUuFg&amp;shop_id=157260118&amp;scm=1048.1.1.12"
+                                target="_blank">故宫文创旗舰店</a>
+                            <a href="https://detail.youzan.com/show/goods/newest?alias=2x5g6lxcluyiw" target="_blank"
+                                class="ewmbox">故宫博物院文创馆 <div class="ewm"> <img src="https://img.dpm.org.cn/Public/static/themes/image/lyc/qrcode.png">
+                                </div>
+                            </a><br>
+                            <a href="https://gugong1925.taobao.com/?spm=a1z10.1.w17869136159.1.00KjSq&amp;ali_refid=a3_430409_1006:1102684303:N:%E6%95%85%E5%AE%AB:5857e1bbc880b1c276f4f186fa8a26c2&amp;ali_trackid=1_5857e1bbc880b1c276f4f186fa8a26c2&amp;spm=a230r.7195193.0.0.FZFQwi"
+                                target="_blank">故宫淘宝</a>
+                            <a href="http://www.gugongshop.com/" target="_blank">故宫商城</a>
+                        </div>
+                        <div class="icon"></div>
+                    </div>
+                </div>
+                <div class="item3 now">
+                    <div class="icon1"></div>
+                    <div class="icon2" style="background-image:url(https://img.dpm.org.cn/Uploads/Picture/2016/12/16/s585356cc32567.png);"></div>
+                    <div class="piclist">
+                        <div class="img i1">
+                            <img class=" lazyloaded" src="upload/7-13.png">
+                            <a target="_blank" href="/light/248586.html" class="mask downs" title="荷包和其中的“压岁钱”"></a>
+                        </div>
+                        <div class="img i2">
+                            <img class=" lazyloaded" src="upload/7-14.png">
+                            <a target="_blank" href="/light/248587.html" class="mask downs" title="清 弘历喜雪图轴（局部）"></a>
+                        </div>
+                        <div class="img i3">
+                            <img class=" lazyloaded" src="upload/7-15.png">
+                            <a target="_blank" href="/light/248588.html" class="mask downs" title="清 梅花珊瑚盆景"></a>
+                        </div>
+                        <div class="img i4">
+                            <img class=" lazyloaded" src="upload/7-16.png">
+                            <a target="_blank" href="/light/248834.html" class="mask downs" title="己亥猪年"></a>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <div class="public-title">
+                            <span class="s1"></span> 缤纷你的移动生活 <span class="s2"></span>
+                        </div>
+                        <p>把故宫装进口袋</p>
+                        <div class="button">
+                            <a target="_blank" href="/lights/royal.html">更多故宫壁纸</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item3-1">
+                    <div class="text">
+                        <div class="public-title" style="margin-top:40px;"> <span class="s1"></span> <a href="javascript:void(0);">故宫输入法皮肤</a>
+                            <span class="s2"></span> </div>
+                        <div class="h2">更多精彩皮肤、表情等你来发现</div>
+                        <div class="desc1"></div>
+                        <div class="button" style="padding-left:50px;">
+                            <a href="http://pinyin.sogou.com/zt/gugong2017/" target="_blank">更多故宫皮肤</a>
+                        </div>
+                    </div>
+                    <div class="imglist clearfix">
+                        <div class="item">
+                            <img src="upload/7-17.jpg">
+                            <a href="https://pinyin.sogou.com/skins/detail/view/info/575204?f=achome_p" target="_blank"
+                                class="a"></a>
+                        </div>
+                        <div class="item">
+                            <img src="upload/7-18.jpg">
+                            <a href="https://pinyin.sogou.com/skins/detail/view/info/575206?f=achome_p" target="_blank"
+                                class="a"></a>
+                        </div>
+                        <div class="item">
+                            <img src="upload/7-19.jpg">
+                            <a href="https://pinyin.sogou.com/skins/detail/view/info/575214?f=achome_p" target="_blank"
+                                class="a"></a>
+                        </div>
+                    </div>
+                    <div class="gif1">
+                        <img src="images/7-1.gif">
+                    </div>
+                    <div class="gif2">
+                        <img src="images/7-18.png">
+                    </div>
+                </div>
+                <div id="huisheng" class="item3-2">
+                    <div class="tit">
+                        <div class="public-title"> <span class="s1"></span> <a href="javascript:;">故宫回声</a> <span class="s2"></span>
+                        </div>
+                        <div class="desc">
+                            一座宫一群人，13491箱文物，为了避免战火而辗转万里。<br>
+                            离家是为了回家。 </div>
+                        <div class="button">
+                            <a href="/huishengs.html" target="_blank">更多故宫动漫</a>
+                        </div>
+                    </div>
+                    <div class="box2 clearfix">
+                        <div class="img1 fl">
+                            <img src="upload/7-17.png" alt="">
+                        </div>
+                        <div class="img fl">
+                            <a href="/huisheng/248511.html" target="_blank">
+                                <img src="upload/7-1.jpeg" alt="">
+                                <div class="mask50"></div>
+                                <div class="tit1">第五话 大战前夕·上</div>
+                            </a>
+                        </div>
+                        <div class="img fl">
+                            <a href="/huisheng/248474.html" target="_blank">
+                                <img src="upload/7-1.jpg" alt="">
+                                <div class="mask50"></div>
+                                <div class="tit1">第四话 伦敦之行·下</div>
+                            </a>
+                        </div>
+                        <div class="img fl">
+                            <a href="/huisheng/248083.html" target="_blank">
+                                <img src="upload/7-2.jpg" alt="">
+                                <div class="mask50"></div>
+                                <div class="tit1">第四话 伦敦之行·上</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item4">
+                    <div class="icon"></div>
+
+                    <div class="child now" style="display: block;">
+                        <div class="text">
+                            <div class="public-title">
+                                <span class="s1"></span> 太和殿的脊兽 <span class="s2"></span>
+                            </div>
+                            <p>太和殿屋脊上的脊兽顺序都乱了 <br>
+                                请把他们放在正确的位置<br>
+                            </p>
+                        </div>
+                        <div class="img">
+                            <img class=" lazyloaded" width="907" src="upload/7-18.png">
+                        </div>
+                    </div>
+                    <div class="nav">
+                    </div>
+                    <div class="button">
+                        <a target="_blank" href="http://young.dpm.org.cn/damaoxian#gamezone">更多故宫游戏</a>
+                    </div>
+                </div>
+                <div id="app" class="item5 now">
+                    <div class="icon1"></div>
+                    <div class="icon"></div>
+                    <div class="icon2"></div>
+                    <div class="icon3"></div>
+                    <div class="arc">
+                        <div class="arcbox" id="arcbox">
+                            <div class="img" style="position: absolute; left: 392px; top: 172px;">
+                                <img title="皇帝的一天" alt="皇帝的一天" class=" lazyloaded" src="upload/7-20.png">
+                            </div>
+                            <div class="img" style="position: absolute; left: 349.984px; top: 301.313px;">
+                                <img title="胤禛美人图" alt="胤禛美人图" class=" lazyloaded" src="upload/7-21.png">
+                            </div>
+                            <div class="img" style="position: absolute; left: 239.984px; top: 381.232px;">
+                                <img title="紫禁城祥瑞" alt="紫禁城祥瑞" class=" lazyloaded" src="upload/7-22.png">
+                            </div>
+                            <div class="img" style="position: absolute; left: 104.016px; top: 381.232px;">
+                                <img title="韩熙载夜宴图" alt="韩熙载夜宴图" class=" lazyloaded" src="upload/7-23.png">
+                            </div>
+                            <div class="img" style="position: absolute; left: -5.98374px; top: 301.313px;">
+                                <img title="清代皇帝服饰" alt="清代皇帝服饰" class=" lazyloaded" src="upload/7-24.png">
+                            </div>
+                            <div class="img" style="position: absolute; left: -48px; top: 172px;">
+                                <img title="故宫陶瓷馆" alt="故宫陶瓷馆" class=" lazyloaded" src="upload/7-25.png">
+                            </div>
+                            <div class="img" style="position: absolute; left: -5.98374px; top: 42.6872px;">
+                                <img title="每日故宫" alt="每日故宫" class=" lazyloaded" src="upload/7-26.png">
+                            </div>
+                            <div class="img" style="position: absolute; left: 104.016px; top: -37.2324px;">
+                                <img title="故宫展览" alt="故宫展览" class=" lazyloaded" src="upload/7-27.png">
+                            </div>
+                            <div class="img" style="position: absolute; left: 239.984px; top: -37.2324px;">
+                                <img title="故宫社区" alt="故宫社区" class=" lazyloaded" src="upload/7-28.png">
+                            </div>
+                            <div class="img" style="position: absolute; left: 349.984px; top: 42.6872px;">
+                                <img title="紫禁城祥瑞PRO" alt="紫禁城祥瑞PRO" class=" lazyloaded" src="upload/7-29.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button1">
+                        <a href="javascript:;" class="a prev" id="aprev"></a>
+                        <a href="javascript:;" class="a next" id="anext"></a>
+                    </div>
+                    <div class="imgtextwarp">
+                        <div class="wrap1 now">
+                            <div class="imglist">
+                                <img title="皇帝的一天" alt="皇帝的一天" class=" lazyloaded" src="upload/7-2.jpeg">
+                            </div>
+                            <div class="text">
+                                <div class="wrap0">
+                                    <div class="textwarp ">
+                                        <div class="public-title">
+                                            <span class="s1"></span>
+                                            <a href="javascript:;">皇帝的一天</a>
+                                            <span class="s2"></span>
+                                        </div>
+                                        <p>紫禁城高高的宫墙后面，昔日的天子究竟过着怎样的生活呢？这是一本故宫博物院官方出品，专为孩子们讲过去的未来“书”。乾清门外的小狮子将带你角色扮演，深入清宫，了解皇帝一天的衣食起居和工作娱乐，还有更多文物卡片和霸气成就等你来收集！</p>
+                                        <div class="button">
+                                            <a target="_blank" href="https://itunes.apple.com/cn/app/huang-di-yi-tian-gu-gong-chu/id893942155?mt=8&amp;ign-mpt=uo%3D4#"
+                                                class="a1"></a>
+                                            <a target="_blank" href="http://sj.qq.com/myapp/detail.htm?apkName=air.com.pamakids.PalaceMuseum"
+                                                class="a2"></a> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap1">
+                            <div class="imglist">
+                                <img title="胤禛美人图" alt="胤禛美人图" class=" lazyloaded" src="upload/7-3.jpeg">
+                            </div>
+                            <div class="text">
+                                <div class="wrap0">
+                                    <div class="textwarp ">
+                                        <div class="public-title">
+                                            <span class="s1"></span>
+                                            <a href="javascript:;">胤禛美人图</a>
+                                            <span class="s2"></span>
+                                        </div>
+                                        <p>故宫博物院出品的首个应用，让您指尖轻触，从十二幅美人屏风画像一窥清朝盛世华丽优雅的宫廷生活。</p>
+                                        <div class="button">
+                                            <a target="_blank" href="https://itunes.apple.com/cn/app/yin-zhen-mei-ren-tu/id631295915?mt=8"
+                                                class="a1"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap1">
+                            <div class="imglist">
+                                <img title="紫禁城祥瑞" alt="紫禁城祥瑞" class=" lazyloaded" src="upload/7-4.jpeg">
+                            </div>
+                            <div class="text">
+                                <div class="wrap0">
+                                    <div class="textwarp ">
+                                        <div class="public-title">
+                                            <span class="s1"></span>
+                                            <a href="javascript:;">紫禁城祥瑞</a>
+                                            <span class="s2"></span>
+                                        </div>
+                                        <p>故宫博物院官方出品，2014年清新发布！<br>
+                                            独家揭秘紫禁城里的祥瑞符号，带您领略宫廷珍宝上的皇家文化。</p>
+                                        <div class="button">
+                                            <a target="_blank" href="https://itunes.apple.com/cn/app/zi-jin-cheng-xiang-rui-gu/id836477582?mt=8"
+                                                class="a1"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap1">
+                            <div class="imglist">
+                                <img title="韩熙载夜宴图" alt="韩熙载夜宴图" class=" lazyloaded" src="upload/7-5.jpeg">
+                            </div>
+                            <div class="text">
+                                <div class="wrap0">
+                                    <div class="textwarp ">
+                                        <div class="public-title">
+                                            <span class="s1"></span>
+                                            <a href="javascript:;">韩熙载夜宴图</a>
+                                            <span class="s2"></span>
+                                        </div>
+                                        <p>南唐末年，朝廷重臣韩熙载为避免陷入政治的泥潭，故意沉溺于夜宴笙歌、不问世事。后主李煜心生疑问，派宫廷画师顾闳中深夜潜入韩府，目识心记，画下了不朽名作《夜宴图》。根据这幅院藏珍品，故宫博物院集两岸三地学者及艺术家之心力，历时两年，以专业的学术资料、丰富的媒体内容及创新的交互美学，精心研发了《韩熙载夜宴图》App。</p>
+                                        <div class="button">
+                                            <a target="_blank" href="https://itunes.apple.com/cn/app/han-xi-zai-ye-yan-tu-gu-gong/id839438802?mt=8"
+                                                class="a1"></a>
+                                            <a target="_blank" href="http://sj.qq.com/myapp/detail.htm?apkName=com.forbiddencity.hanxizaieveningbanquet"
+                                                class="a2"></a> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap1">
+                            <div class="imglist">
+                                <img title="清代皇帝服饰" alt="清代皇帝服饰" class=" lazyloaded" src="upload/7-6.jpeg">
+                            </div>
+                            <div class="text">
+                                <div class="wrap0">
+                                    <div class="textwarp ">
+                                        <div class="public-title">
+                                            <span class="s1"></span>
+                                            <a href="javascript:;">清代皇帝服饰</a>
+                                            <span class="s2"></span>
+                                        </div>
+                                        <p>清帝冠服是中国数千年服饰文化史中不可或缺的一页，也是故宫博物院宫廷旧藏中的重要组成部分。故宫博物院精心打造的《清代皇帝服饰》iPad应用程序，邀您与清代皇帝冠服进行一次全方位的亲密接触！</p>
+                                        <div class="button">
+                                            <a target="_blank" href="https://itunes.apple.com/cn/app/qing-dai-huang-di-fu-shi-gu/id844683451?mt=8"
+                                                class="a1"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap1">
+                            <div class="imglist">
+                                <img title="故宫陶瓷馆" alt="故宫陶瓷馆" class=" lazyloaded" src="upload/7-7.jpeg">
+                            </div>
+                            <div class="text">
+                                <div class="wrap0">
+                                    <div class="textwarp ">
+                                        <div class="public-title">
+                                            <span class="s1"></span>
+                                            <a href="javascript:;">故宫陶瓷馆</a>
+                                            <span class="s2"></span>
+                                        </div>
+                                        <p>故宫博物院官方出品，基于iPhone系列手机制作的《故宫陶瓷馆》APP，它以“时间轴”为骨架，串联起文华殿陶瓷馆在陈的全部藏品，每件藏品都有清晰的图片和专家撰写的介绍，更有8件精品可以水平360°水平环绕欣赏！把“故宫陶瓷馆”装进口袋里，随时随地看展览，长知识！&nbsp;</p>
+                                        <div class="button">
+                                            <a target="_blank" href="https://itunes.apple.com/cn/app/gu-gong-tao-ci-guan/id839437166?mt=8&amp;ign-mpt=uo%3D4"
+                                                class="a1"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap1">
+                            <div class="imglist">
+                                <img title="每日故宫" alt="每日故宫" class=" lazyloaded" src="upload/7-8.jpeg">
+                            </div>
+                            <div class="text">
+                                <div class="wrap0">
+                                    <div class="textwarp ">
+                                        <div class="public-title">
+                                            <span class="s1"></span>
+                                            <a href="javascript:;">每日故宫</a>
+                                            <span class="s2"></span>
+                                        </div>
+                                        <p>每日甄选一款馆藏珍品，邀您同游宋元山水，共访禁城别苑，探寻皇家日常那些令人惊叹的细节，感受传世珍品不竭的历史生命。</p>
+                                        <div class="button">
+                                            <a target="_blank" href="https://itunes.apple.com/cn/app/mei-ri-gu-gong/id943324650?ls=1&amp;mt=8"
+                                                class="a1"></a>
+                                            <a target="_blank" href="http://sj.qq.com/myapp/detail.htm?apkName=com.lkgood.thepalacemuseumdaily"
+                                                class="a2"></a> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap1">
+                            <div class="imglist">
+                                <img title="故宫展览" alt="故宫展览" class=" lazyloaded" src="upload/7-10.jpeg">
+                            </div>
+                            <div class="text">
+                                <div class="wrap0">
+                                    <div class="textwarp ">
+                                        <div class="public-title">
+                                            <span class="s1"></span>
+                                            <a href="javascript:;">故宫展览</a>
+                                            <span class="s2"></span>
+                                        </div>
+                                        <p>故宫出品，打造7×24小时的线上展厅，邀您指尖访古，看遍宫廷原状、常设专馆、专题特展，让故宫博物院精品展览一览无余，深度体验传统艺术与宫廷文化的丰富内涵。</p>
+                                        <div class="button">
+                                            <a target="_blank" href="https://itunes.apple.com/cn/app/gu-gong-zhan-lan/id1051633498?mt=8&amp;ign-mpt=uo%3D2"
+                                                class="a1"></a>
+                                            <a target="_blank" href="http://sj.qq.com/myapp/detail.htm?apkName=net.artron.gugong"
+                                                class="a2"></a> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap1">
+                            <div class="imglist">
+                                <img title="故宫社区" alt="故宫社区" class=" lazyloaded" src="upload/7-3.jpg">
+                            </div>
+                            <div class="text">
+                                <div class="wrap0">
+                                    <div class="textwarp ">
+                                        <div class="public-title">
+                                            <span class="s1"></span>
+                                            <a href="javascript:;">故宫社区</a>
+                                            <span class="s2"></span>
+                                        </div>
+                                        <p>故宫社区，当然故宫出品，宫粉们信得过的靠谱组织！<br>
+                                            仰望星空，亲历紫微宫中的故事、新事；纵览世间，在紫微城中建造属于自己的宅院，走街串巷探寻别样的文化空间，最具创新玩法的文化体验，可持续生长的文化生态，这是一个有温度、会呼吸的线上文化社区。</p>
+                                        <div class="button">
+                                            <a target="_blank" href="https://itunes.apple.com/cn/app/%E6%95%85%E5%AE%AB%E7%A4%BE%E5%8C%BA/id1231345015?l=zh&amp;ls=1&amp;mt=8"
+                                                class="a1"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap1">
+                            <div class="imglist">
+                                <img title="紫禁城祥瑞PRO" alt="紫禁城祥瑞PRO" class=" lazyloaded" src="upload/7-4.jpg">
+                            </div>
+                            <div class="text">
+                                <div class="wrap0">
+                                    <div class="textwarp ">
+                                        <div class="public-title">
+                                            <span class="s1"></span>
+                                            <a href="javascript:;">紫禁城祥瑞PRO</a>
+                                            <span class="s2"></span>
+                                        </div>
+                                        <p>《紫禁城祥瑞》全明星阵容强势扩容回归，一起来探索精彩无限的“祥瑞之岛”，破解传统文化符号背后隐藏的秘密吧！<br>
+                                            清代准皇后如何通过大婚化身为“凤”？狻猊为何总为香具代言？打开球形熏炉3D模型的外壳，看看熏炉滚动时，悬心机械结构如何保持中心盛香小碗始终朝上……《紫禁城祥瑞PRO》以主题性、多角度呈现17种传统祥瑞符号，甄选170余件故宫博物院藏文物精品，解读这些传统符号的历史演变及文化内涵。</p>
+                                        <div class="button">
+                                            <a target="_blank" href="https://itunes.apple.com/cn/app/id1374792897?mt=8"
+                                                class="a1"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function () {
+            $(window).resize(function () {
+                var height = $(window).height();
+                var banner = $(".winchance .banner");
+                if (height > 900) {
+                    return;
+                }
+                banner.css({
+                    height: height - 93
+                });
+            }).trigger("resize");
+            $('.arcbox .img').bind("click", function () {
+                var index = $(this).index();
+                $('.winchance .item5 .imgtextwarp .wrap1').eq(index).addClass('now').siblings().removeClass(
+                    "now");
+            });
+            var arc = arc1();
+            $(window).scroll(function () {
+
+                // if (scrollact(".winchance .item1", 300)) {
+                //     $(".item1 .child").eq(0).addClass("now");
+                //     setTimeout(function () {
+                //         $(".item1 .child").mChange({
+                //             auto: 1, //是否自动播放,1为自动,0为手动
+                //             arrow: 1, //是否反转箭头,1为点击左侧向右滚动,0则相反
+                //             speed: 500, //效果速度,大于0.3
+                //             time: 10000, //周期时间，大于1
+                //             nav: ".winchance .item1 .foucs .nav a", //导航
+                //             nave: "click", //导航事件
+                //             navs: 0, //导航滚动
+                //             prev: null, //上一个
+                //             next: null, //下一个
+                //             cycle: 1, //是否循环
+                //             mousestop: 0, //是否鼠标划入停止
+                //             mousewheel: 0, //是否开启滚轮事件
+                //             animates: function (idx) {
+                //                 $(".item1 .child").eq(idx).addClass("now").siblings()
+                //                     .removeClass("now");
+                //             } //自定义函数
+                //         });
+                //     }, 1000);
+
+                // }
+                // if (scrollact(".winchance .item2", 300)) {
+                //     $(".item2 .child").eq(0).addClass("now");
+                //     setTimeout(function () {
+                //         $(".item2 .child").mChange({
+                //             auto: 1, //是否自动播放,1为自动,0为手动
+                //             arrow: 1, //是否反转箭头,1为点击左侧向右滚动,0则相反
+                //             speed: 500, //效果速度,大于0.3
+                //             time: 10000, //周期时间，大于1
+                //             nav: ".winchance .item2 .foucs .nav a", //导航
+                //             nave: "click", //导航事件
+                //             navs: 0, //导航滚动
+                //             prev: null, //上一个
+                //             next: null, //下一个
+                //             cycle: 1, //是否循环
+                //             mousestop: 0, //是否鼠标划入停止
+                //             mousewheel: 0, //是否开启滚轮事件
+                //             animates: function (idx) {
+                //                 $(".item2 .child").eq(idx).addClass("now").siblings()
+                //                     .removeClass("now");
+                //             } //自定义函数
+                //         });
+                //     }, 1000);
+                // }
+                // if (scrollact(".winchance .item3", 300)) {
+                //     $(".winchance .item3").addClass("now");
+                // }
+                // if (scrollact(".winchance .item4", 300)) {
+                //     $(".item4 .child").eq(0).addClass("now");
+                //     setTimeout(function () {
+                //         $(".item4 .child").mChange({
+                //             auto: 1, //是否自动播放,1为自动,0为手动
+                //             arrow: 1, //是否反转箭头,1为点击左侧向右滚动,0则相反
+                //             speed: 500, //效果速度,大于0.3
+                //             time: 10000, //周期时间，大于1
+                //             nav: ".winchance .item4 .foucs .nav a", //导航
+                //             nave: "click", //导航事件
+                //             navs: 0, //导航滚动
+                //             prev: null, //上一个
+                //             next: null, //下一个
+                //             cycle: 1, //是否循环
+                //             mousestop: 0, //是否鼠标划入停止
+                //             mousewheel: 0, //是否开启滚轮事件
+                //             animates: function (idx) {
+                //                 $(".item4 .child").eq(idx).addClass("now").siblings()
+                //                     .removeClass("now");
+                //             } //自定义函数
+                //         });
+                //     }, 1000);
+                // }
+                if (scrollact(".winchance .item5", 300)) {
+                    $(".item5").addClass("now");
+                    var arc1 = arc,
+                        speeds = arc1.speeds,
+                        seTstop = 0;
+                    console.log(speeds);
+                    seTstop = setInterval(function () {
+                        arc1.move("next", speeds);
+                    }, 5000);
+
+                    $(".winchance .item5 .arc,.winchance .item5 .button1").hover(function () {
+                        clearInterval(seTstop);
+                    }, function () {
+                        seTstop = setInterval(function () {
+                            arc1.move("next", speeds);
+                        }, 5000);
+                    });
+                    // setTimeout(function(){
+                    $('.winchance .item5 .imgtextwarp .wrap1').eq(0).addClass('now');
+                    // },1800);
+                }
+            });
+        });
+
+        function arc1() {
+            var element = document.getElementById("arcbox"),
+                child = element.getElementsByTagName('div'),
+                arr = [],
+                itemx = 0;
+            speeds = 360 / child.length,
+                radius = 220,
+                centerX = radius - 48,
+                centerY = radius - 48,
+                flag = true;
+
+            function item(element) {
+                this.element = element;
+                this.x = 0;
+                this.y = 0;
+                this.deg = 0;
+            }
+            item.prototype.draw = function () {
+                this.element.style.position = "absolute";
+                this.element.style.left = this.x + "px";
+                this.element.style.top = this.y + "px";
+            }
+
+            for (var i = 0, l, len = child.length; i < len; i++) {
+                l = new item(child[i]);
+                l.deg += speeds * i;
+                l.x = centerX + Math.cos(l.deg * (Math.PI / 180)) * radius;
+                l.y = centerY + Math.sin(l.deg * (Math.PI / 180)) * radius;
+                l.draw();
+                arr.push(l);
+            }
+
+            function move(str, speed) {
+                var stop, speed1 = 1,
+                    deg = 1;
+                if (speed) {
+                    speeds = speed;
+                } else {
+                    speeds = 360 / child.length;
+                }
+                if (flag) {
+                    flag = false;
+                    if (str == "prev") {
+                        itemx++;
+                        if (itemx >= $('.winchance .item5 .imgtextwarp .wrap1').size()) {
+                            itemx = 0;
+                        }
+                        stop = setInterval(function () {
+                            if (deg == speeds) {
+                                flag = true;
+                                clearInterval(stop);
+                            }
+                            arr.forEach(function (o) {
+                                o.deg -= speed1;
+                                o.x = centerX + Math.cos(o.deg * (Math.PI / 180)) * radius;
+                                o.y = centerX + Math.sin(o.deg * (Math.PI / 180)) * radius;
+                                o.draw();
+                            });
+                            deg += 1;
+                        }, 1000 / 60);
+                    }
+                    if (str == "next") {
+                        itemx--;
+                        if (itemx < 0) {
+                            itemx = $('.winchance .item5 .imgtextwarp .wrap1').size() - 1;
+                        }
+                        stop = setInterval(function () {
+                            if (deg == speeds) {
+                                flag = true;
+                                clearInterval(stop);
+                            }
+                            arr.forEach(function (o) {
+                                o.deg += speed1;
+                                o.x = centerX + Math.cos(o.deg * (Math.PI / 180)) * radius;
+                                o.y = centerX + Math.sin(o.deg * (Math.PI / 180)) * radius;
+                                o.draw();
+                            });
+                            deg++;
+                        }, 1000 / 60);
+                    }
+                    //console.log(itemx);
+                    $('.winchance .item5 .imgtextwarp .wrap1').eq(itemx).addClass('now').siblings().removeClass("now");
+                }
+
+            }
+
+            var prev1 = document.getElementById("aprev");
+            var next1 = document.getElementById("anext");
+
+            prev1.onclick = function () {
+                move("prev");
+            };
+            next1.onclick = function () {
+                move("next");
+            };
+            return {
+                move: move,
+                item: item,
+                speeds: speeds
+            }
+        }
+
+        function scrollact(e, fix) {
+            if (!fix) {
+                fix = 0;
+            }
+            if ($(e)[0].flage) {
+                return;
+            }
+            if ($(window).scrollTop() + Math.abs($(window).height() - $(e).height()) >= +$(e).offset().top - fix) {
+                $(e)[0].flage = 1;
+                return true;
+            }
+        }
+    </script>
+    <!-- <script>
+        CONFIG.checkLogin(function(user_id, c) {
+            if ( user_id != 0 ) {
+                var footprint_title = "";
+                var footprint_link = "";
+                var footprint_column = "";
+                if ( footprint_title && footprint_link && footprint_column ) {
+                    $.post("/footprint/add.html", {
+                        footprint_title:footprint_title, 
+                        footprint_link:footprint_link, 
+                        footprint_column
+                    }, function(data){
+                        
+                    });
+                }
+            }
+        });
+        </script> -->
+    <!-- 尾 -->
+    <div class="footer fb" id="footer">
+        <div class="wrap">
+            <div class="num">网站访问量<span class="inner"><i>3</i><i>6</i><i>8</i><i>4</i><i>3</i><i>2</i><i>2</i><i>8</i></span></div>
+            <div>
+                <div class="code2d"><a></a><img src="images/2-9.jpg"></div>
+            </div>
+            <div>
+                <div class="nav_foot">
+                    <a href="/sitemap.html"> 网站地图</a>&nbsp;&nbsp; <a href="/bottom/friend.html"> 相关链接</a>&nbsp;&nbsp;
+                    <a href="/bottom/apply_image.html" target="_blank"> 影像授权</a>&nbsp;&nbsp; <a href="/bottom/privacy/252.html"
+                        target="_blank"> 隐私政策</a>&nbsp;&nbsp; <a href="/bottom/privacy/236341.html" target="_blank">
+                        版权声明</a>&nbsp;&nbsp; <a href="/bottom/ask.html"> 常见问题</a>&nbsp;&nbsp; <a href="/bottom/contact.html">
+                        联系我们</a>&nbsp;&nbsp; <a href="http://nquestion.com/Answer/Start.aspx?Id=114716" target="_blank">
+                        调查问卷</a>&nbsp;&nbsp;</div>
+            </div>
+            <div>
+                <div class="copyright">
+
+                    Copyright © 2015 故宫博物院. All Rights Reserved&nbsp;&nbsp;京ICP备05067311号-1 &nbsp;&nbsp;&nbsp;
+                    <a href="http://www.fractal-technology.com/" target="_blank">网站建设</a>：
+                    <a href="http://www.fractal-technology.com/" target="_blank">北京分形科技</a>
+                </div>
+
+                <div class="btns"><a href="javascript:;">浏览建议</a></div>
+            </div>
+        </div>
+        <div class="proposal">
+            火狐 谷歌 360浏览器 最佳分辨率（1366 * 768）
+        </div>
+    </div>
+    <!-- 建议浏览 -->
+    <script>
+        $.get("/get_pageview.html", function (data) {
+            if (data.status == 1) {
+                var num = data.pageview.toString();
+                var num1 = "";
+                for (var i = 0; i < num.length; i++) {
+                    num1 += "<i>" + num.substr(i, 1) + "</i>";
+                }
+                $(".footer .num .inner").html(num1);
+                $('#footer .num').show();
+            }
+        }, "json");
+
+        //浏览建议 start
+        $("#footer .btns a").bind("click", function () {
+            $("#footer .proposal").animate({
+                bottom: 0,
+            });
+            return false;
+        });
+
+        $("#footer .proposal").bind("mouseout", function (e) {
+            $(this).animate({
+                bottom: '-60px',
+            });
+        });
+        //浏览建议  end
+    </script>
+</body>
+
+</html>
